@@ -3,13 +3,13 @@ import Link  from "next/link";
 
 export default function Index() {
   return (
-    <div className="p-10 prose">
-      <h1 className="text-4xl font-extrabold">The fishblob site</h1>
-      <br/>
-      <Image src="/fish-blob.png" alt="Fish Blob" width={500} height={500} />
-      <h1 className="text-2x1 font-italics">This is a Fish Blob</h1>
-      <Link href="/games" className="text-2xl underline">Games</Link>
-      <Link href="/urmom" className="text-2xl underline">|Cool facts</Link>
-    </div>
+    <>
+    
+    <section className="min-h-screen bg-gray-800">
+      <br />
+      <br />
+    <h1 className="text-5xl font-extrabold underline decoration-red-500 text-center">Home Page · Fish Blob</h1>
+    </section>
+    </>
   );
 }
