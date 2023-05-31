@@ -6,7 +6,8 @@ export default function Index() {
     <div className="p-10 prose">
       <h1 className="text-4xl font-extrabold">Games</h1>
       <br/>
-      <Link href="/">Home</Link>
+      <Link href="/" className="text-blue-600">Home</Link>
+      
     </div>
   );
 }
