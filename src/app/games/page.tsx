@@ -7,7 +7,7 @@ export default function Index() {
       <h1 className="text-4xl font-extrabold">Games</h1>
       <br/>
       <Link href="/" className="text-blue-600">Home</Link>
-      
+      <iframe src="https://y8.com/embed/slope" scrolling="no" className="slope"> </iframe>​​​
     </div>
   );
 }
