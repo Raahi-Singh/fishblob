@@ -17,7 +17,7 @@ export default function Index() {
       <div className="w-full p-1 md:p-2">
         <img
           alt="gallery"
-          className="block h-full w-full object-scale-down rounded-lg object-center"
+          className="block object-scale-down rounded-lg object-center h-full w-full"
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Blobfish-vector.svg/2560px-Blobfish-vector.svg.png" />
       </div>
     </div>
