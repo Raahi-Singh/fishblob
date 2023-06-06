@@ -6,7 +6,7 @@ export default function Index() {
     <div className="p-10 prose">
       <h1 className="text-4xl font-extrabold">Slope</h1>
       <br/>
-      
-slope    </div>
+            <iframe src="https://slope.abnumality.repl.co/"></iframe>
+      </div>
   );
 }
