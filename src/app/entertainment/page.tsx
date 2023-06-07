@@ -36,7 +36,7 @@ export default function Index() {
         <h1 className="text-4xl font-extrabold">Games: </h1>
         <br />
         <Game name="Slope" desc="A game about a ball on a slope"  page="/entertainment/slope" bg="bg-gradient-to-r from-green-500 to-red-500" />
-        <Game name="BTD 4" desc="Bloons Tower Defense 4" page="/entertainment/btd4" bg="bg-gradient-to-r from-blue-500 to-purple-500" />
+        <Game name="Bee Swarm Simulator" desc="Idk" page="/entertainment/beeswarm" bg="bg-gradient-to-r from-blue-500 to-purple-500" />
       </section>
     </>
   );
