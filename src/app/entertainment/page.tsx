@@ -37,6 +37,7 @@ export default function Index() {
         <br />
         <Game name="Slope" desc="A game about a ball on a slope"  page="/entertainment/slope" bg="bg-gradient-to-r from-green-500 to-red-500" />
         <Game name="Bee Swarm Simulator" desc="Idk" page="/entertainment/beeswarm" bg="bg-gradient-to-r from-blue-500 to-purple-500" />
+        <Game name="Smash The Cube" desc="Fruit Ninja Clone" page="/entertainment/smashcube" bg="bg-gradient-to-r from-fucshia-500 to-blue-500" />
       </section>
     </>
   );
