@@ -5,12 +5,42 @@ export default function Index() {
   return (
     <>
     
-    <section className="min-h-screen bg-gray-800">
-      <br />
-      <br />
-    <h1 className="text-5xl font-extrabold underline decoration-red-500 text-center">Home Page · Fish Blob</h1>
-    </section>
-    <p className="text-3x1 blue-500 text-center">This is a website created by Martin Norman, Raahi Singh and Yuze Ding</p>
+    <div className=" bg-gray-100 ">
+      <header className="bg-pink-200 shadow" style={{height:'10vh'}}>
+        <div className="container mx-auto px-4 py-6">
+          <h1 className="text-3xl font-semibold text-white">Welcome to The Fishblob Site</h1>
+          <p className="text-xl font-semibold text-white">The best website on the whole internet for your spiderman, fishblob, and ruler needs. </p>
+        </div>
+      </header>
+
+      <main className="bg-gray-100">
+      <section className="bg-blue-200 bg-cover bg-center py-32" style={{ backgroundImage: 'url(https://upload.wikimedia.org/wikipedia/commons/9/99/Blobfish-vector.svg)', height: '43vh', backgroundSize: 'contain', backgroundRepeat: 'no-repeat' }}>
+          <div className="container mx-auto text-center">
+            <h2 className="text-3xl font-semibold text-white">Explore</h2>
+            <p className="text-white">Countless random pages and fun ideas</p>
+          </div>
+        </section>
+
+        <section className="bg-green-200 bg-cover bg-center py-32" style={{ backgroundImage: 'url(https://i.pinimg.com/originals/50/6a/76/506a762d35d035d05b555b50e488c6b2.png)', height: '43vh', backgroundSize: 'contain', backgroundRepeat: 'no-repeat' }}>
+          <div className="container mx-auto text-center">
+            <h2 className="text-3xl font-semibold text-white">Games</h2>
+            <p className="text-white">We currently have slope, bee swarm simulator, and block smasher</p>
+          </div>
+        </section>
+      </main>
+
+      <footer className="bg-gray-200 py-4" style={{height:'7vh'}}>
+        <div className="container mx-auto text-center">
+          <p className="text-gray-600">This is a website created by Raahi Singh, Martin Norman, and Yuze Ding</p>
+          <p className="text-gray-600">Copyright @ 2023 Fishblob?</p>
+        </div>
+      </footer>
+    </div>
+    
+      
+    
+    
+
     </>
   );
 }
