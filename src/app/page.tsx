@@ -15,7 +15,7 @@ export default function Index() {
         <main className="bg-gray-100">
           <section className="bg-blue-200 bg-cover bg-center py-32 sm:py-48" style={{ backgroundImage: 'url(https://upload.wikimedia.org/wikipedia/commons/9/99/Blobfish-vector.svg)', height: '43vh', backgroundSize: '35%', backgroundRepeat: 'no-repeat' }}>
             <div className="container mx-auto text-center">
-              <h2 className="text-3xl font-semibold text-white">Explore</h2>
+              <h2 className="text-3xl font-semibold text-red-900">Explore</h2>
               <p className="text-white">Countless random pages and fun ideas</p>
             </div>
           </section>
