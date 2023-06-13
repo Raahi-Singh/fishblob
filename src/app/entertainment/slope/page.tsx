@@ -8,5 +8,5 @@ export default function Index() {
       <br/>
             <iframe src="https://slope.abnumality.repl.co/" width="90%" height="90%"></iframe>
       </div>
-  );
+  )
 }
