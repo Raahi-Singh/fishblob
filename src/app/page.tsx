@@ -27,13 +27,6 @@ export default function Index() {
             </div>
           </section>
         </main>
-
-        <footer className="bg-gray-200 py-4" style={{ height: '15vh' }}>
-          <div className="container mx-auto text-center">
-            <p className="text-gray-600 truncate">This is a website created by Raahi Singh, Martin Norman, and Yuze Ding</p>
-            <p className="text-gray-600 truncate">Copyright @ 2023 Fishblob?</p>
-          </div>
-        </footer>
       </div>
     </>
   );
