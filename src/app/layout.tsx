@@ -6,7 +6,6 @@ import Link from "next/link";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "FishBlob",
   description: "Website Feauturing FishBlob, Spider-Man, and Rulers",
 };
 
@@ -19,6 +18,7 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+
   return (
     <>
       <body className={inter.className}>
@@ -61,9 +61,9 @@ export default function RootLayout({
                     <li>
                       <Link
                         className="text-white transition hover:text-gray-200"
-                        href="#"
+                        href="/spider"
                       >
-                        History
+                        Spider Stuff
                       </Link>
                     </li>
 
