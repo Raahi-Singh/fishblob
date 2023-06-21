@@ -17,14 +17,14 @@ export default function Index() {
         </header>
 
         <main className="bg-gray-100">
-          <section className="bg-blue-200 bg-cover bg-center py-32 sm:py-48" style={{ backgroundImage: 'url(https://upload.wikimedia.org/wikipedia/commons/9/99/Blobfish-vector.svg)', height: '43vh', backgroundSize: '35%', backgroundRepeat: 'no-repeat' }}>
+          <section className="bg-blue-200 bg-cover bg-center py-32 sm:py-48">
             <div className="container mx-auto text-center">
               <h2 className="text-3xl font-semibold text-red-900">Explore</h2>
               <p className="text-white">Countless random pages and fun ideas</p>
             </div>
           </section>
 
-          <section className="bg-red-200 bg-cover bg-center py-32 sm:py-48" style={{ backgroundImage: 'url(https://i.pinimg.com/originals/50/6a/76/506a762d35d035d05b555b50e488c6b2.png)', height: '43vh', backgroundSize: '20%', backgroundRepeat: 'no-repeat' }}>
+          <section className="bg-red-200 bg-cover bg-center py-32 sm:py-48">
             <div className="container mx-auto text-center">
               <h2 className="text-3xl font-semibold text-white">Games</h2>
               <p className="text-white">We currently have slope, bee swarm simulator, and block smasher</p>
