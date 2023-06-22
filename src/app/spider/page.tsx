@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 
 export default function Spider() {
     let today = new Date();
-        var btsv = new Date(today.getFullYear(), 3, 29);
+        var btsv = new Date(today.getFullYear(), 2, 29, 2023);
         if (today.getMonth() == 11 && today.getDate() > 25) {
             btsv.setFullYear(btsv.getFullYear() + 1);
         }
